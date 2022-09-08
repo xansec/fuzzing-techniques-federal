@@ -6,36 +6,37 @@ TODO
 
 This is the second series of fuzzing essentials trainings for federal employees and contractors.
 
-In this course, we will introduce you to the techniques that underpin fuzzing,
-and show you how to incorporate those techniques into your organization. These
-techniques will allow you to:
-
-1. Find and prove vulnerabilities with zero false
-positives.  Developers love the actual proof-of-concept that demonstrates the
-problem, just like a human hacker would provide. Managers love that every
-report is actionable. And program managers love the savings from avoiding false
-positives, which can account for 25%+ of your security budget.
-
-2. Automatically and continuously improve the test suite, which eliminates
-unknowns caused by un-tested or under-tested code. Organizations report up to
-70% of their developer time is building test scenarios. Behavior-based fuzzing
-expands code coverage for the price of a CPU hour rather than a human work hour.
-
 You will learn with hands-on examples using Mayhem. However, the course is also
 generally applicable to anyone who wants to learn how to fuzz, including using
-open source tools like AFL, libfuzzer, and honggfuzz.
+open source tools like AFL, libfuzzer, and honggfuzz, as well as other pen-testing
+tools like Ghidra, gdb, ldd, and more.
 
-We’re excited to have you join us.  We hope you take away fundamental new
-skills. But moreso, we also hope you come away with a passion for making appsec
-more autonomous.
+We’re excited to have you join us.  We hope you take away even more new
+fuzzing skills. But moreso, we also hope you come away with a passion for making
+application security more autonomous.
 
 ## Agenda
 
-TODO
+In this course, we will continue to discuss fuzz testing techniques, centering around
+the idea of a pen-testing toolbelt. At the end of the training, you will be able to:
+
+1. Explain What Fuzz Testing Is
+2. Give examples of tools in a pen-testing toolbelt
+3. Package a target for fuzzing with Mayhem
+4. Improve results using a fuzzing corpus or dictionary, and
+5. Improve coverage using coverage analysis and patching
 
 ## Schedule
 
-TODO
+Day 1:
+* Course Overview
+* Fuzzing Out-of-the-Box
+* Improving Coverage
+
+Day 2:
+* Binary Analysis
+* Binary Patching
+* Conclusion
 
 ## Links
 
