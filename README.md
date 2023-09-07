@@ -2,8 +2,6 @@
 
 ## Course Description
 
-TODO
-
 This is the second series of fuzzing essentials trainings for federal employees and contractors.
 
 You will learn with hands-on examples using Mayhem. However, the course is also
@@ -40,7 +38,7 @@ Day 2:
 
 ## Links
 
-* [Mayhem Instance (https://training.forallsecure.com)](https://training.forallsecure.com)
+* [Mayhem Instance (https://app.mayhem.security)](https://app.mayhem.security)
 * [Mayhem Community](https://community.forallsecure.com)
 
 ## Resources
@@ -48,4 +46,3 @@ Day 2:
 * [Linux CLI Basics](https://youtu.be/MhlWCja5JwE)
 * [Linux CLI Text Editors](https://youtu.be/j83TDCMkBlM)
 * [Linux CLI Reference](assets/Linux_Useful_Commands.pdf)
-* [slido (for Survey Questions)](https://www.sli.do/)
