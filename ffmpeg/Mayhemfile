@@ -1,7 +1,7 @@
-project: abrewer/ffmpeg
+project: ffmpeg
 target: ffmpeg
-image: $MAYHEM_DOCKER_REGISTRY/abrewer/ffmpeg:latest
-advanced_triage: true 
+image: $MAYHEM_DOCKER_REGISTRY/ffmpeg:latest
+advanced_triage: true
 
 tasks:
   - name: exploitability_factors
@@ -14,5 +14,3 @@ cmds:
     env:
       LD_LIBRARY_PATH: /usr/local/lib
     dictionary: /dictionaries/webm.dict
-
-
