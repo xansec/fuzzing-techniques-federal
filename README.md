@@ -24,14 +24,11 @@ the idea of a pen-testing toolbelt. At the end of the training, you will be able
 4. Improve results using a fuzzing corpus or dictionary, and
 5. Improve coverage using coverage analysis and patching
 
-## Schedule
+## Topics
 
-Day 1:
 * Course Overview
 * Fuzzing Out-of-the-Box
 * Improving Coverage
-
-Day 2:
 * Binary Analysis
 * Binary Patching
 * Conclusion
