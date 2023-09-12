@@ -54,3 +54,4 @@ dkms.conf
 # Ghidra files
 *.gpr
 *.rep
+*.lock*
