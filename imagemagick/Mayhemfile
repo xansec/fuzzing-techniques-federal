@@ -1,0 +1,16 @@
+project: imagemagick 
+target: convert
+image: ghcr.io/xansec/imagemagick:latest
+advanced_triage: true
+
+tasks:
+  - name: exploitability_factors
+  - name: regression_testing
+  - name: behavior_testing
+  - name: coverage_analysis
+
+cmds:
+  - cmd: /usr/bin/convert @@ /dev/null
+    env:
+      LD_LIBRARY_PATH: /mayhem/patched-libs
+    dictionary: /dictionaries/png.dict

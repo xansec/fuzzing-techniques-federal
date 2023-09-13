@@ -1,6 +1,6 @@
 project: ffmpeg
-target: ffmpeg
-image: ghcr.io/xansec/ffmpeg:4.2
+target: ffmpeg-mp4
+image: ghcr.io/xansec/ffmpeg:4.1
 advanced_triage: true
 
 tasks:

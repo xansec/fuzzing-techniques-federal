@@ -2,9 +2,11 @@ FROM debian:bullseye AS builder
 
 RUN apt update -y && apt install -y curl make gcc tar gzip nasm
 
-ENV FFMPEG_VERSION=4.2
+ENV FFMPEG_VERSION=4.1
 ENV PREFIX=/install
 ENV DIR=/tmp/ffmpeg
+ENV CFLAGS=-g
+ENV CXXFLAGS=-g
 
 RUN mkdir ${DIR}
 WORKDIR ${DIR}
